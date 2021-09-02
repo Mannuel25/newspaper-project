@@ -1,1 +1,1 @@
-# newspaper-project
+# Newspaper Project
