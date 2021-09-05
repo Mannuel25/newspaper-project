@@ -45,7 +45,10 @@ INSTALLED_APPS = [
     # Local
     'users',
     'pages',
+    'articles',
 ]
+
+TIME_ZONE = 'Africa/Lagos'
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
