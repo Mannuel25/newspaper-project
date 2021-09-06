@@ -29,4 +29,8 @@ class ArticleDeleteView(DeleteView):
 class ArticleCreateView(CreateView):
     model = Article
     template_name = 'article_new.html'
-    fields = ('title', 'body', 'author')
+    fields = ('title', 'body')
+
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        retrun super().form_valid(form)
