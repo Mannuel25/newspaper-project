@@ -1,3 +1,3 @@
-# A Newspaper Project
+#  Newspaper Project
 
 
