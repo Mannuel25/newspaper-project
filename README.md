@@ -1,3 +1,3 @@
 #  Newspaper Project
 
--- Credit: [Django for beginners]
+-- Credit: [Django for beginners](https://djangoforbeginners.com/)
